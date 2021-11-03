@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container_left{
+    height: 100vh;
+    width: 20%;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    color: white;
+}
+.container_right{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.common_page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.home{
+    background-color: chartreuse;
+}
+.About{
+    background-color: rgb(0, 255, 179);
+}
+.contact{
+    background-color: rgb(119, 0, 255);
+}
+.Education{
+    background-color: rgb(255, 0, 170);
+}
+.container_img_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   font-size: 25px;
+}
+.img_cont{
+    transform: scale(80%);
+}
+.img_cont img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.navbar{
+    position: relative;
+    top: 10%;
+}
+.navlist{
+  position: relative;
+}
+.navlist .btn{
+  width: 84%;
+  padding: 6px 4px;
+  margin: 5px auto;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.navlist li{
+   list-style: none;
+   
+}
+.navlist li .link{
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container_left_bottom{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 15px;
+}
+.container_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
